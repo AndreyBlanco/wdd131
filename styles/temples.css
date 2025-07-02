@@ -1,0 +1,104 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    max-width: 900px;
+}
+
+header, footer {
+    background-color: brown;
+    margin: 0;
+}
+
+footer {
+    padding: 1rem;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+nav {
+    margin: 1rem auto;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    color: white;
+    background: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content:"❎";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navigation a {
+    display: none;
+    padding: 0.5rem;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: rgb(248, 116, 116);
+    color:black;
+    font-weight: 700;
+}
+
+.open a {
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.templeList {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: center;
+    max-width: 800px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border: 2px solid;
+}
+
+figure p {
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    margin: 0;
+}
