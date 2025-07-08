@@ -44,6 +44,32 @@ main {
     padding: 15px;
 }
 
+main h1 {
+    text-align: center;
+} 
+
+#about {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#about img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#about h3 {
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#about a {
+    display: block;
+    text-align: center;
+}
+
 .card {
     border-radius: 5px;
     background-color: white;
@@ -58,6 +84,11 @@ h2 {
     border-radius: 5px 5px 0 0;
     padding: 10px;
     color: white;
+    text-align: center;
+}
+
+.link_list {
+    padding-right: 1rem;
 }
 
 footer {
@@ -106,6 +137,43 @@ footer {
     h2 {
         font-size: medium;
         margin: 0;
+    }
+
+    #about {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    #about p:first-of-type {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #myphoto {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    #about h3 {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+
+    #costaRica {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        display: flex;
+    }
+
+    #costaRica a {
+        font-size: smaller;
+        padding-top: 10px;
+    }
+    #costaRica p{
+        max-width: 70%;
+        margin: 0;
+        font-size: small;
     }
 
 
