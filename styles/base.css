@@ -57,6 +57,7 @@ main h1 {
 
 #about img {
     max-width: 80%;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -66,8 +67,10 @@ main h1 {
     border-bottom: 1px solid;
 }
 
-#about a {
-    display: block;
+#flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -92,6 +95,10 @@ h2 {
     padding-right: 1rem;
 }
 
+.link_list li {
+    padding-bottom: 0.5rem;
+}
+
 footer {
     color: white;
     margin: auto;
@@ -103,7 +110,7 @@ footer {
     font-style: Italic;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 640px) {
 
     body {
         max-width: 900px;
@@ -167,15 +174,9 @@ footer {
         display: flex;
     }
 
-    #costaRica a {
-        font-size: smaller;
-        padding-top: 10px;
-    }
     #costaRica p{
         max-width: 70%;
         margin: 0;
         font-size: small;
     }
-
-
 }
