@@ -173,10 +173,14 @@ footer {
         grid-row: 3 / 4;
         display: flex;
     }
-
+    
     #costaRica p{
         max-width: 70%;
         margin: 0;
         font-size: small;
+    }
+
+    #flag p {
+        max-width: 100%;
     }
 }
