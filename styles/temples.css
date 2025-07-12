@@ -90,9 +90,7 @@ figure img {
     border: 2px solid;
 }
 
-figure p {
+figcaption {
     text-align: center;
-    font-size: larger;
-    font-weight: 600;
     margin: 0;
 }
