@@ -24,6 +24,11 @@
         max-width: 100%;
     }
 
+    .templeList {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
     figure img {
         width: 150px;
         border: 1px solid;

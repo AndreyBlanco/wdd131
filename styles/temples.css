@@ -77,8 +77,8 @@ main {
 }
 
 .templeList {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 5px;
     justify-content: center;
     max-width: 800px;
