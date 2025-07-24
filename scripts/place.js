@@ -10,7 +10,6 @@ function calculateWindChill(temperatureC, windSpeedKmh) {
     return windChill.toFixed(1);
 }
 
-// Example:
 const temperatureC = 22;
 const windSpeedKmh = 3;
 
