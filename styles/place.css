@@ -1,0 +1,119 @@
+:root {
+    --mainColor: red;
+    --secondColor: blue;
+    --thirdColor: white;
+    --opacity: rgb(255 255 255 / 0.7);
+}
+
+body {
+    font-family: Montserrat, serif;
+    margin: 0;
+}
+
+header {
+    background-color: var(--secondColor);
+    color: var(--thirdColor);
+    border-bottom: solid 10px var(--mainColor);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+    font-size: 30px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid var(--secondColor);
+}
+
+table {
+    font-size: small;
+}
+
+td:nth-of-type(odd) {
+    font-weight: bold;
+    text-align: end;
+}
+
+td {
+    padding: 0.2rem;
+}
+
+.weather, .data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.data {
+    border-bottom: solid 1px var(--secondColor);
+}
+
+.weather img {
+    width: 5rem;
+    height: auto;
+}
+
+footer {
+    background-color: var(--secondColor);
+    color: var(--thirdColor);
+    margin: auto;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 0.5rem 0;
+}
+
+@media (min-width: 500px) {
+    .weather h2::after  {
+        content: " 🌧️";
+    }
+    
+    .weather img {
+        display: none;
+    }
+    
+    .data {
+        width: 250px;
+        background-color: var(--opacity);
+        position: absolute;
+        top: 100px;
+        left: 15px;
+        display: block;
+        border-bottom: none;
+        box-shadow: 0 0 10px 0 var(--secondColor);
+    }
+
+    .weather {
+        width: 200px;
+        background-color: var(--opacity);
+        position: absolute;
+        top: 32vw;
+        right: 15px;
+        display: block;
+        box-shadow: 0 0 10px 0 var(--secondColor);
+    }
+
+    h2 {
+        background-color: var(--mainColor);
+        color: var(--thirdColor);
+        width: 70%;
+        text-align: left;
+        margin-left: -5px;
+        margin-top: 8px;
+        padding: 10px;
+        font-size: large;   
+    }
+
+    table {
+        margin: auto;
+        font-size: 12px;
+    }
+
+    footer {
+        margin-top: -4px;
+    }
+}
