@@ -1,0 +1,130 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    max-width: 900px;
+}
+
+header, footer {
+    background-color: brown;
+    margin: 0;
+}
+
+h1 {
+    margin:0;
+    padding-top: 1.2rem;
+}
+
+footer {
+    padding: 1rem;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+nav {
+    margin: 1rem auto;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    color: white;
+    background: none;
+    position: absolute;
+    text-align: center;
+    top: 1rem;
+    right: 1rem;
+    width: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navigation a {
+    display: none;
+    padding: 0.5rem;
+    max-width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: rgb(248, 116, 116);
+    color:black;
+    font-weight: 700;
+}
+
+.open a {
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.templeList {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    justify-content: center;
+    max-width: 800px;
+}
+
+img {
+    width: 100%;
+    box-shadow: 0 0 5px 0 black;
+}
+
+.tCard {
+    text-align: center;
+    padding: 1rem;
+    background-color: antiquewhite;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 400px;
+    border: 1px solid rgba(165, 42, 42, 0.144);
+    justify-items: center;
+}
+
+h3 {
+    font-size: medium;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+table {
+    border-spacing: 0;
+    padding-bottom: 1rem;
+}
+
+table tr td:first-of-type {
+    text-align: right;
+    font-size: smaller;
+    color: brown;
+}
+
+table tr td:last-of-type {
+    text-align: left;
+    word-break: break-all;
+    white-space: nowrap;
+    font-size: small;
+}
