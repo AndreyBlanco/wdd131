@@ -86,12 +86,13 @@ main {
     grid-template-columns: 1fr;
     gap: 5px;
     justify-content: center;
-    max-width: 800px;
+    max-width: 890px;
 }
 
 img {
     width: 100%;
     box-shadow: 0 0 5px 0 black;
+    margin-top: 1rem;
 }
 
 .tCard {
@@ -111,20 +112,15 @@ h3 {
     margin-bottom: 0.5rem;
 }
 
-table {
-    border-spacing: 0;
-    padding-bottom: 1rem;
-}
 
-table tr td:first-of-type {
+.label {
     text-align: right;
-    font-size: smaller;
     color: brown;
 }
 
-table tr td:last-of-type {
+section p {
     text-align: left;
     word-break: break-all;
     white-space: nowrap;
-    font-size: small;
+    margin: 0;
 }
