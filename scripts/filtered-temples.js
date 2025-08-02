@@ -82,19 +82,37 @@ const temples = [
     // Add more temple objects here...
 ];
 
-function templeCard(temple) {
-    return `<section class="tCard">
-                <h3>${temple.templeName}</h3>
-                <p><spam class="label">Location: </spam>${temple.location}</p>
-                <p><spam class="label">Dedicated </spam>${temple.dedicated}</p>
-                <p><spam class="label">Size: </spam>${temple.area} sq ft</p>
-                <img src="${temple.imageUrl}" alt="${temple.templeName} Temple" loading="lazy">
-            </section>`
-}
 
 function templeGrid(templeList) {
-    document.querySelector(".templeList").innerHTML = templeList.map(templeCard).join("");
-}
+    document.querySelector(".templeList").innerHTML = '';
+    templeList.map(temple => {
+        let list = document.querySelector(".templeList");
+        let section = document.createElement("section");
+        let name = document.createElement("h3");
+        let location = document.createElement("p");
+        let dedicated = document.createElement("p");
+        let area = document.createElement("p");
+        let photo = document.createElement("img");
+
+        name.textContent = temple.templeName;
+        location.innerHTML = `<spam class="label">Location:</spam> ${temple.location}`;
+        dedicated.innerHTML = `<spam class="label">Dedicated:</spam> ${temple.dedicated}`;
+        area.innerHTML = `<spam class="label">Size:</spam> ${temple.area} sq fr`;
+        photo.setAttribute("src", temple.imageUrl);
+        photo.setAttribute("alt", `${temple.templeName} Temple`);
+        photo.setAttribute("loading", "lazy");
+
+        section.setAttribute("class", "tCard");
+
+        section.appendChild(name);
+        section.appendChild(location);
+        section.appendChild(dedicated);
+        section.appendChild(area);
+        section.appendChild(photo);
+
+        list.appendChild(section);
+    })
+};
 
 templeGrid(temples);
 
