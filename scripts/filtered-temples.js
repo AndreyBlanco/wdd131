@@ -88,7 +88,7 @@ function templeCard(temple) {
                 <p><spam class="label">Location: </spam>${temple.location}</p>
                 <p><spam class="label">Dedicated </spam>${temple.dedicated}</p>
                 <p><spam class="label">Size: </spam>${temple.area} sq ft</p>
-                <img src="${temple.imageUrl}" alt="${temple.templeName} Temple" loading="lazy" width=400 height=auto>
+                <img src="${temple.imageUrl}" alt="${temple.templeName} Temple" loading="lazy">
             </section>`
 }
 
