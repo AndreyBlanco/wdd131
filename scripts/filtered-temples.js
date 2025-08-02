@@ -85,10 +85,10 @@ const temples = [
 function templeCard(temple) {
     return `<section class="tCard">
                 <h3>${temple.templeName}</h3>
-                <p>Location:${temple.location}</p>
-                <p>Dedicated:${temple.dedicated}</p>
-                <p>Size:${temple.area} sq ft</p>
-                <img src="${temple.imageUrl}" alt="${temple.templeName} Temple" loading="lazy">
+                <p><spam class="label">Location: </spam>${temple.location}</p>
+                <p><spam class="label">Dedicated </spam>${temple.dedicated}</p>
+                <p><spam class="label">Size: </spam>${temple.area} sq ft</p>
+                <img src="${temple.imageUrl}" alt="${temple.templeName} Temple" loading="lazy" width=400 height=auto>
             </section>`
 }
 
