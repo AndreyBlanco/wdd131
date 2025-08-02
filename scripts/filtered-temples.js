@@ -83,24 +83,13 @@ const temples = [
 ];
 
 function templeCard(temple) {
-    return `<div class="tCard">
+    return `<section class="tCard">
                 <h3>${temple.templeName}</h3>
-                <table>
-                    <tr>
-                        <td>Location:<td>
-                        <td>${temple.location}</td>
-                    </tr>
-                    <tr>
-                        <td>Dedicated:<td>
-                        <td>${temple.dedicated}</td>
-                    </tr>
-                    <tr>
-                        <td>Size:<td>
-                        <td>${temple.area} sq ft</td>
-                    </tr>
-                </table>
+                <p>Location:${temple.location}<p>
+                <p>Dedicated:${temple.dedicated}<p>
+                <p>Size:${temple.area} sq ft<p>
                 <img src=${temple.imageUrl} alt=${temple.templeName} loading="lazy">
-            </div>`
+            </section>`
 }
 
 function templeGrid(templeList) {
