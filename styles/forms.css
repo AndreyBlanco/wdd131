@@ -11,7 +11,7 @@ header {
 }
 
 main {
-    background-color: rgb(244, 243, 243);
+    background-color: rgb(199, 199, 199);
     padding: 15px;
 }
 
@@ -35,7 +35,7 @@ fieldset {
     width: 100%;
 }
 
-legend {
+legend, .labelTitle {
     font-weight: bold;
 }
 
@@ -95,7 +95,7 @@ legend {
 
 .optional {
     font-size: small;
-    color:rgb(43, 70, 101);
+    color:black;
 }
 
 #reviewPage {
