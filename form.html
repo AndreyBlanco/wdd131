@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Andrey Gregorio Blanco Alfaro WDD 131 Dynamic Web Fundamentas 2025 Forms">
+    <meta name="author" content="Andrey Gregorio Blanco Alfaro">
+    <title>WDD 131 – Dynamic Web Fundamentals – Andrey Gregorio Blanco Alfaro - Forms</title>
+    <link rel=stylesheet href="styles/forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/forms.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <fieldset>
+                <legend>Product Name:</legend>
+                <select id="product" class="complete" name="productName" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+                </select>
+            </fieldset>
+            <fieldset class="rating">
+                <legend>Overal Rating</legend>
+                <label class="stars">
+                    <p>✮</p><input required type="radio" name="rating" id="1">
+                </label>
+                <label class="stars">
+                    <p>✮✮</p><input required type="radio" name="rating" id="2">
+                </label>
+                <label class="stars">
+                    <p>✮✮✮</p><input required type="radio" name="rating" id="3">
+                </label>
+                <label class="stars">
+                    <p>✮✮✮✮</p><input required type="radio" name="rating" id="4">
+                </label>
+                <label class="stars">
+                    <p>✮✮✮✮✮</p><input required type="radio" name="rating" id="5">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Date of Installation</legend>
+                <input id="dateInstall" class="complete" type="date" name="installation">
+            </fieldset>
+            <fieldset class="features">
+                <legend>Which features did you find useful in the product?</legend>
+                <p>(Check all that apply)</p>
+                <label><input id="featureDurability" type="checkbox" name="durability" value="yes">Durability</label>
+                <label><input id="featureUse" type="checkbox" name="use" value="yes">Ease of Use</label>
+                <label><input id="featurePerformance" type="checkbox" name="performance" value="yes">Performance</label>
+                <label><input id="featureDesign" type="checkbox" name="design" value="yes">Design</label>
+            </fieldset>
+            <fieldset>
+                <legend>written Review <span class="optional">(Optional)</span></legend>
+                <input id="writtenReview" class="review" type="textarea" name="review">
+            </fieldset>
+            <fieldset>
+                <legend>Your Name <span class="optional">(Optional)</span></legend>
+                <input id="name" class="complete" type="text" name="yourName">
+            </fieldset>
+            <input class="button" type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Andrey Blanco | Costa Rica</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
