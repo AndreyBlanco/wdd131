@@ -62,7 +62,8 @@ legend, .labelTitle {
 }
 
 .stars {
-    display: box;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
