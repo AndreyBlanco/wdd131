@@ -29,6 +29,7 @@ async function populate_ejercicios_diarios() {
     const dias = document.querySelector('input[name="dias"]:checked')
     const ejercicios_diarios = document.getElementById("ejercicios-diarios");
     ejercicios_diarios.innerHTML = "";
+    
     if ((genero) && (dias)) {
         var gen = "";
         if (genero.id == "masculino") {
@@ -37,9 +38,6 @@ async function populate_ejercicios_diarios() {
             gen = "women";
         }
 
-        if (dias.id == "3d") {
-
-        }
         const response = await fetch(`./files/${gen}.json`);
         const content = await response.json();
         var info = content[dias.id];
@@ -77,10 +75,6 @@ async function populate_ejercicios_diarios() {
             semana_field.appendChild(semana_legend);  
             ejercicios_diarios.appendChild(semana_field);
         });
-
-            
-       
-        
     } else {
         console.log("nada", genero);
     };
