@@ -60,6 +60,7 @@ async function populate_ejercicios_diarios() {
                     const label = document.createElement('label')
                     label.textContent = ejercicio;
                     const select = document.createElement('select');
+                    console.log(ejercicio);
                     ejercicios_list[ejercicio].forEach(elem => {
                         const option = document.createElement('option');
                         option.value = elem;
