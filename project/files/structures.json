@@ -1,0 +1,10 @@
+{
+    "EMOM": "Duración: 1 minuto. Se realizan las repeticiones designadas del ejercicio o ejercicios en 1 minuto. Se descansa el tiempo restante del minuto y luego se pasa al siguiente ejercicio.",
+    "TABATA": "Duración: 4 minutos. Se realizan 20’’ segundos de trabajo y 10’’ segundos de descanso. Se cambia de ejercicio hasta completar los 4 minutos.",
+    "AMRAP": "Duración a elegir. Se asigna un tiempo determinado de trabajo y se realizan la mayor cantidad de rounds o repeticiones posibles. (LAPS indica la cantidad de vueltas a realizar).",
+    "CIRCUITO": "Se realizan de 4 a 6 rounds. Se escogen los ejercicios, se designan las repeticiones y se descansa 1 minuto al finalizar cada round.",
+    "CUENTA REGRESIVA": "10-9-8-7-6-5-4-3-2-1. Se inicia con el número mayor en cada ejercicio y se va restando hasta finalizar. Se repite si existen varios rounds o si así se indica.",
+    "FOR TIME": "Se determina una tarea (cantidad de rounds) x TIME CAP (tiempo estimado). Nunca mayor a 30 minutos.",
+    "HIT": "Intervalos de alta intensidad. Se trabaja 40’’ segundos en cada ejercicio y se descansa 20’’ segundos. Se cambia de ejercicio hasta terminar el bloque. Se descansa 1 minuto al finalizar cada round.",
+    "RELOJ DE ARENA": "10-9-8-7-6-5-4-3-2-1-2-3-4-5-6-7-8-9-10. Se inicia con las repeticiones más altas hasta llegar a las más bajas, y luego se vuelve a subir hasta finalizar. // TIME CAP: tiempo máximo establecido para finalizar."
+}

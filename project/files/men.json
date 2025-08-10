@@ -1,0 +1,80 @@
+{
+    "3d": {
+        "Semana_1": [
+            "PECHO-BICEP-PECHO-BICEP",
+            "ESPALDA-HOMBRO-EXPLOSIVA-TRICEP",
+            "PECHO-PIERNA-PIERNA-GLUTEO"
+        ],
+        "Semana_2": [
+            "ESPALDA-HOMBRO-ESPALDA-TRICEP",
+            "PECHO-BICEP-PECHO-BICEP",
+            "PIERNA-GLUTEO-PIERNA-EXPLOSIVA"
+        ],
+        "Semana_3": [
+            "PECHO-PIERNA-GLUTEO-PIERNA",
+            "ESPALDA-BICEP-TRICEP-BICEP",
+            "PECHO-EXPLOSIVA-PECHO-HOMBRO"
+        ],
+        "Semana_4": [
+            "PIERNA-PECHO-PIERNA-GLUTEO",
+            "ESPALDA-HOMBRO-EXPLOSIVA-TRICEP",
+            "PECHO-BICEP-PECHO-BICEP"
+        ]
+    },
+    "4d": {
+        "Semana_1": [
+            "PECHO-PECHO-BICEP-BICEP",
+            "ESPALDA-PIERNA-PIERNA-HOMBRO",
+            "PECHO-EXPLOSIVA-BICEP-GLUTEO",
+            "ESPALDA-HOMBRO-TRICEP-PIERNA"
+        ],
+        "Semana_2": [
+            "ESPALDA-PECHO-ESPALDA-TRICEP",
+            "PIERNA-GLUTEO-HOMBRO-BICEP",
+            "PECHO-PECHO-ESPALDA-EXPLOSIVA",
+            "PIERNA-BICEP-PIERNA-BICEP"
+        ],
+        "Semana_3": [
+            "PECHO-PIERNA-GLUTEO-PIERNA",
+            "ESPALDA-HOMBRO-EXPLOSIVA-BICEP",
+            "PECHO-PIERNA-PECHO-TRICEP",
+            "ESPALDA-BICEP-HOMBRO-BICEP"
+        ],
+        "Semana_4": [
+            "ESPALDA-PIERNA-BICEP-PIERNA",
+            "PECHO-HOMBRO-PECHO-TRICEP",
+            "BICEP-PIERNA-BICEP-GLUTEO",
+            "PECHO-ESPALDA-HOMBRO-EXPLOSIVA"
+        ]
+    },
+    "5d": {
+        "Semana_1": [
+            "PECHO-TRICEP-PECHO-TRICEP",
+            "ESPALDA-BICEP-HOMBRO-BICEP",
+            "PIERNA-PIERNA-GLUTEO-EXPLOSIVA",
+            "PECHO-HOMBRO-PECHO-TRICEP",
+            "ESPALDA-PIERNA-ESPALDA-BICEP"
+        ],
+        "Semana_2": [
+            "ESPALDA-PIERNA-GLUTEO-ESPALDA",
+            "HOMBRO-BICEP-TRICEP-BICEP ",
+            "PIERNA-PECHO-PIERNA-PECHO",
+            "ESPALDA-TRICEP-EXPLOSIVA-TRICEP",
+            "PECHO-BICEP-PECHO-HOMBRO"
+        ],
+        "Semana_3": [
+            "PECHO-PIERNA-PIERNA-PECHO ",
+            "ESPALDA-TRICEP-ESPALDA-TRICEP",
+            "HOMBRO-EXPLOSIVA-BICEP-HOMBRO",
+            "ESPALDA-TRICEP-PIERNA-GLUTEO",
+            "PECHO-BICEP-PECHO-BICEP"
+        ],
+        "Semana_4": [
+            "PECHO-ESPALDA-PECHO-ESPALDA",
+            "PIERNA-HOMBRO-PIERNA-HOMBRO",
+            "EXPLOSIVA-BICEP-TRICEP-BICEP",
+            "PECHO-PECHO-PIERNA-GLUTEO",
+            "ESPALDA-TRICEP-BICEP-TRICEP"
+        ]
+    }
+}

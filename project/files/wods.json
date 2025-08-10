@@ -1,0 +1,50 @@
+{
+    "EMOM": [
+        "EMOM 1’: 8’ ON x 1’ REST x 3 ROUNDS x 8 REPS",
+        "EMOM 1’: 28’ ON x 10 REPS",
+        "EMOM 1’: 12’ ON x 2’ REST x 2 ROUNDS x 8 REPS",
+        "EMOM 1’: 4’ ON x 1’ REST x 6 ROUNDS x 10 REPS"
+    ],
+    "TABATA": [
+        "TABATA 4’: 20\" ON x 10\" OFF x 1’ REST x 6 LAPS",
+        "TABATA 4’: 20\" ON x 10\" OFF x 1’ REST x 5 LAPS",
+        "TABATA 4’: 20\" ON x 10\" OFF x 1’ REST x 4 LAPS",
+        "TABATA 4’: 20\" ON x 10\" OFF x 1’ REST x 6 LAPS"
+    ],
+    "AMRAP": [
+        "AMRAP: 6’ ON x 1’ OFF x 4 LAPS x 8 REPS",
+        "AMRAP: 9’ ON x 1’ REST x 3 LAPS x 4 REPS",
+        "AMRAP: 14’ ON x 1’ REST x 2 LAPS x 8 REPS",
+        "AMRAP: 5’ ON x 1’ REST x 5 LAPS x 6 REPS"
+    ],
+    "CIRCUITO": [
+        "CIRCUITO: 6 ROUNDS x 8 REPS / TIME CAP: 26’",
+        "CIRCUITO: 12-8-12-8-12 REPS / TIME CAP: 29’",
+        "CIRCUITO: 4 ROUNDS x 10 REPS / TIME CAP: 26’",
+        "CIRCUITO: 6 ROUNDS x 10 REPS / TIME CAP: 30’"
+    ],
+    "CUENTA REGRESIVA": [
+        "CUENTA REGRESIVA: 10-9-8-7-6-5-4-3-2-1 REPS / TIME CAP: 30’",
+        "CUENTA REGRESIVA: 8-6-4 REPS x 3 LAPS / TIME CAP: 29’",
+        "CUENTA REGRESIVA: 10-9-8-7-6-5-4-3-2-1 REPS / TIME CAP: 28’",
+        "CUENTA REGRESIVA: 21-15-9 REPS / TIME CAP: 19’"
+    ],
+    "FOR TIME": [
+        "FOR TIME: 8 ROUNDS x 6 REPS x TIME CAP: 30’",
+        "FOR TIME: 9 ROUNDS x 4 REPS x TIME CAP: 27’",
+        "FOR TIME: 1 ROUND x 48 REPS x TIME CAP: 30’",
+        "FOR TIME: 6 ROUNDS x 8 REPS x TIME CAP: 30’"
+    ],
+    "HIT": [
+        "HIIT: 40\" ON x 20\" OFF x 1’ REST x 6 ROUNDS",
+        "HIIT: 40\" ON x 20\" OFF x 1’ REST x 5 ROUNDS",
+        "HIIT: 40\" ON x 20\" OFF x 2’ REST x 6 ROUNDS",
+        "HIIT: 40\" ON x 20\" OFF x 1’ REST x 4 ROUNDS"
+    ],
+    "RELOJ ARENA": [
+        "RELOJ ARENA: 12-10-8-6-8-10-12 REPS / TIME CAP: 30’",
+        "RELOJ ARENA: 10-8-6-4-2-2-4-6-8-10 REPS / TIME CAP: 26’",
+        "RELOJ ARENA: 10-9-8-4-8-9-10 REPS / TIME CAP: 25’",
+        "RELOJ ARENA: 9-8-7-6-6-7-8-9 REPS / TIME CAP: 26’"
+        ]
+}
