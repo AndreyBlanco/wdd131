@@ -23,10 +23,12 @@ if (registro_programa != 0 && document.querySelector('#programa-personal')) {
     delete registro_programa.genero;
     delete registro_programa.dias;
     delete registro_programa['fecha-actual'];
-    const programa = document.getElementById('programa-personal');
-
+    const programa = document.createElement('fieldset');
+    programa.setAttribute("id", "programa");
+    programa.setAttribute("class", "ejercicios_listas");
     document.querySelector('#programa-personal').innerHTML = `<p class="p_form">Su programa para género ${genero} y ${dias} días a la semana es el siguiente:</p>`;
-
+    document.querySelector('#programa-personal').appendChild(programa);
+    
     let lastSemana = '';
     let lastDia = '';
 
@@ -35,24 +37,34 @@ if (registro_programa != 0 && document.querySelector('#programa-personal')) {
         const ejercicio = registro_programa[key];
 
         if (semana !== lastSemana) {
-            const semanaElemento = document.createElement('h2');
-            semanaElemento.textContent = `Semana ${semana}`;
-            semanaElemento.setAttribute("class", "semana-legend");
-            programa.appendChild(semanaElemento);
+            const semana_elemento = document.createElement('fieldset');
+            semana_elemento.setAttribute("id", `semana${semana}`)
+            semana_elemento.setAttribute("class", "semana_field")
+            const semana_legend = document.createElement('legend');
+            semana_legend.textContent = `Semana ${semana}`;
+            semana_legend.setAttribute("class", "semana-legend");
+            semana_elemento.appendChild(semana_legend);
+            document.querySelector('#programa').appendChild(semana_elemento);
             lastSemana = semana;
             lastDia = '';
-        }
-
+        };
+        
         if (dia !== lastDia) {
-            const diaElemento = document.createElement('h3');
-            diaElemento.textContent = `Día ${dia}`;
-            programa.appendChild(diaElemento);
+            const dia_elemento = document.createElement('fieldset');
+            dia_elemento.setAttribute("id", `semana${semana}_${dia}`)
+            dia_elemento.setAttribute("class", "dia_field")
+            const dia_legend = document.createElement('legend');
+            dia_legend.textContent = `Día ${dia}`;
+            dia_elemento.appendChild(dia_legend);
+            document.querySelector(`#semana${semana}`).appendChild(dia_elemento);
             lastDia = dia;
-        }
-
-        const ejercicioElemento = document.createElement('p');
-        ejercicioElemento.textContent = `• ${musculo}: ${ejercicio}`;
-        programa.appendChild(ejercicioElemento);
+        };
+        
+        const ejercicio_elemento = document.createElement('p');
+        ejercicio_elemento.textContent = `• ${musculo}: ${ejercicio}`;
+        
+        document.querySelector(`#semana${semana}_${dia}`).appendChild(ejercicio_elemento);       
+        
     });
 
     document.querySelector('#cambiar-programa').style.display = "block";

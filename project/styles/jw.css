@@ -122,6 +122,29 @@
     grid-row: 1/2;
 }
 
+.plan {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-justify: end;
+    text-align: end;
+    align-items: end;
+}
+
+.plan h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.plan p {
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.kettleImg {
+    grid-column: 2/3;
+}
+
 #h1_index {
     position: absolute;
     top: 140px;
@@ -225,8 +248,8 @@ form {
     border-bottom: #A70F08 solid 1px;
 }
 
-#ejercicios-diarios {
-    display: none;
+.ejercicios_listas {
+    display: flex;
     flex-direction: column;
     border: none;
     padding: 0;
@@ -394,6 +417,10 @@ footer p {
         height: 630px;
     }
 
+    .kettleImg img{
+        width: 300px;
+    }
+
     .heroImg img{
         width: 1000px;
         height: 630px;
@@ -431,7 +458,7 @@ footer p {
         font-size: medium;
     }
 
-    #ejercicios-diarios {
+    .ejercicios_listas {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
